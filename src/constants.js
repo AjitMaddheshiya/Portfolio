@@ -1,0 +1,288 @@
+// Skills Section Logo's
+import javaLogo from './assets/tech_logo/java.png';
+import DSALogo from './assets/tech_logo/DSA.jpg';
+import OOPLogo from './assets/tech_logo/OOP.jpg';
+import JDBCLogo from './assets/tech_logo/JDBC.png';
+import swingLogo from './assets/tech_logo/swing.png';
+import promptLogo from './assets/tech_logo/prompt.jpeg';
+import excelLogo from './assets/tech_logo/excel.png';
+import powerbiLogo from './assets/tech_logo/powerbi.png';
+import tableauLogo from './assets/tech_logo/tableau.png';
+import processLogo from './assets/tech_logo/process.png';
+import visualLogo from './assets/tech_logo/visual.png';
+import rlangLogo from './assets/tech_logo/rlang.jpg';
+import jupiterLogo from './assets/tech_logo/jupiter.png';
+import collabLogo from './assets/tech_logo/collab.png';
+import idleLogo from './assets/tech_logo/idle.png';
+import ideaLogo from './assets/tech_logo/idea.png';
+
+import javascriptLogo from './assets/tech_logo/javascript.png';
+import reactjsLogo from './assets/tech_logo/reactjs.png';
+import angularLogo from './assets/tech_logo/angular.png';
+import reduxLogo from './assets/tech_logo/redux.png';
+import nextjsLogo from './assets/tech_logo/nextjs.png';
+import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
+import gsapLogo from './assets/tech_logo/gsap.png';
+import materialuiLogo from './assets/tech_logo/materialui.png';
+import bootstrapLogo from './assets/tech_logo/bootstrap.png';
+import springbootLogo from './assets/tech_logo/springboot.png';
+import nodejsLogo from './assets/tech_logo/nodejs.png';
+import expressjsLogo from './assets/tech_logo/express.png';
+import mysqlLogo from './assets/tech_logo/mysql.png';
+import mongodbLogo from './assets/tech_logo/mongodb.png';
+import firebaseLogo from './assets/tech_logo/firebase.png';
+import cLogo from './assets/tech_logo/c.png';
+import cppLogo from './assets/tech_logo/cpp.png';
+
+import pythonLogo from './assets/tech_logo/python.png';
+import typescriptLogo from './assets/tech_logo/typescript.png';
+import gitLogo from './assets/tech_logo/git.png';
+import githubLogo from './assets/tech_logo/github.png';
+import vscodeLogo from './assets/tech_logo/vscode.png';
+import postmanLogo from './assets/tech_logo/postman.png';
+import mcLogo from './assets/tech_logo/mc.png';
+import figmaLogo from './assets/tech_logo/figma.png';
+import netlifyLogo from './assets/tech_logo/netlify.png';
+import vercelLogo from './assets/tech_logo/vercel.png';
+import postgreLogo from './assets/tech_logo/postgre.png';
+import csharpLogo from './assets/tech_logo/csharp.png';
+
+// Experience Section Logo's
+import webverseLogo from './assets/company_logo/webverse_logo.png';
+import agcLogo from './assets/company_logo/agc_logo.png';
+import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+
+// Education Section Logo's
+import lpuLogo from './assets/education_logo/lpu.png';
+import jpsLogo from './assets/education_logo/jps.gif';
+import vpsLogo from './assets/education_logo/vps_logo.png';
+
+// Project Section Logo's
+import bankLogo from './assets/work_logo/bank.jpg';
+import sortLogo from './assets/work_logo/sort.png';
+import dataLogo from './assets/work_logo/data.png';
+import tableuLogo from './assets/work_logo/tableu.webp';
+import biLogo from './assets/work_logo/bi.png';
+import webverLogo from './assets/work_logo/web_dig.png';
+import excelfLogo from './assets/work_logo/excelf.jpg';
+import heartDiseaseLogo from './assets/work_logo/heartDisease.png';
+import removebgLogo from './assets/work_logo/remove_bg.png';
+
+
+export const SkillsInfo = [
+  {
+    title: 'Software Developer Skills',
+    skills: [
+       { name: 'Java', logo: javaLogo },
+      { name: 'DSA', logo: DSALogo },
+      { name: 'OOP', logo: OOPLogo },
+      { name: 'JDBC', logo: JDBCLogo },
+      { name: 'Java Swing', logo: swingLogo },
+      { name: 'Prompt Engineering', logo: promptLogo },
+    ],
+  },
+  {
+    title: 'Data Analytics Skills',
+    skills: [
+      { name: 'Excel', logo: excelLogo },
+      { name: 'Power BI', logo: powerbiLogo },
+      { name: 'Tableau', logo: tableauLogo },
+      { name: 'MySQL', logo: mysqlLogo },
+      { name: 'Data Processing', logo: processLogo },
+      { name: 'Data Visualization & Reporting', logo: visualLogo },
+      { name: 'Data Science Toolbox', logo: pythonLogo },
+      { name: 'Machine Learning', logo: rlangLogo },
+    ],
+  },
+  {
+    title: 'Languages',
+    skills: [
+      { name: 'C', logo: cLogo },
+      { name: 'C++', logo: cppLogo },
+      { name: 'Java', logo: javaLogo },
+      { name: 'Python', logo: pythonLogo },
+      { name: 'SQL', logo: mysqlLogo },
+
+    ],
+  },
+  {
+    title: 'Tools',
+    skills: [
+      { name: 'GitHub', logo: githubLogo },
+      { name: 'VS Code', logo: vscodeLogo },
+      { name: 'Jupyter Notebook', logo: jupiterLogo },
+      { name: 'Google Colab', logo: collabLogo },
+      { name: 'IDLE', logo: idleLogo },
+      { name: 'IntelliJ IDEA', logo: ideaLogo },
+      { name: 'Vercel', logo: vercelLogo },
+    ],
+  },
+];
+
+  export const experiences = [
+    {
+      id: 0,
+      img: webverseLogo,
+      role: "Fullstack Developer",
+      company: "Webverse Digital",
+      date: "April 2024 - Present",
+      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+      skills: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React JS",
+        "TypeScript",
+        "Node JS",
+        "Tailwind CSS",
+        "MongoDb",
+        "Redux",
+        " Next Js",
+      ],
+    },
+    {
+      id: 1,
+      img: agcLogo,
+      role: "Fullstack Engineer",
+      company: "Agumentik Group of Companies",
+      date: "July 2023 - March 2024",
+      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
+      skills: [
+        "ReactJS",
+        "Redux",
+        "JavaScript",
+        "Tailwind CSS",
+        "HTML",
+        "CSS",
+        "SQL",
+      ],
+    },
+    {
+      id: 2,
+      img: newtonschoolLogo,
+      role: "Frontend Intern",
+      company: "Newton School",
+      date: "September 2021 - August 2022",
+      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
+      skills: [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Bootstrap",
+        "Figma",
+        "Material UI",
+      ],
+    },
+  ];
+  
+  export const education = [
+    {
+      id: 0,
+      img: lpuLogo,
+      school: "Lovely Professional University,Phagwara",
+      date: "July 2023 - July 2027",
+      grade: "8.54 CGPA",
+      desc: "Pursuing B.Tech in Computer Science and Engineering at Lovely Professional University (2023–2027). Gained strong foundation in programming, DSA, OOP, DBMS, Web Development, and Software Engineering through coursework, projects, and workshops, enhancing technical expertise and problem-solving skills.",
+      degree: "Bachelor of Technology (B.Tech)",
+    },
+    {
+      id: 1,
+      img: jpsLogo,
+      school: "S.C.L.L.H.R.Jain Public School,Khanna",
+      date: "April 2022 - March 2023",
+      grade: "89.6%",
+      desc: "I completed my class 12 education from S.C.L.L.H.R.Jain Public School,Khanna, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM). ",
+      degree: "CBSE(XII) - PCM",
+    },
+    {
+      id: 2,
+      img: jpsLogo,
+      school: "S.C.L.L.H.R.Jain Public School,Khanna",
+      date: "April 2020 - March 2021",
+      grade: "91.2%",
+      desc: "I completed my class 10 education from S.C.L.L.H.R.Jain Public School,Khanna, under the CBSE board, where I studied Science.",
+      degree: "CBSE(X)",
+    },
+  ];
+  
+  export const projects = [
+    {
+      id: 0,
+      title: "Banking Mangament System",
+      description:
+        "I developed a Banking Management System using Java and JDBC to efficiently handle customer accounts, transactions, and balance inquiries. The system included backend functionality for secure deposit, withdrawal, and fund transfer operations, ensuring accuracy and reliability. I also designed an intuitive user interface with Java Swing, providing smooth navigation between account management, transaction history, and customer service features. Additionally, I implemented secure modules for user registration, login authentication, and new account creation to maintain data integrity and safe access.",
+      image: bankLogo,
+      tags: ["Java", "MySQl", "JDBC"],
+      github: "https://github.com/AjitMaddheshiya/Banking-Mangament-System-JDBC-JAVA-MySQL",
+      webapp: "https://github.com/AjitMaddheshiya/Banking-Mangament-System-JDBC-JAVA-MySQL",
+    },
+    {
+      id: 1,
+      title: "Sorting Algorithm Visualizer",
+      description:
+        "I developed a Sorting Algorithm Visualizer application using Java to demonstrate the step-by-step execution of various sorting techniques, including Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort, and Heap Sort. The project featured an interactive GUI built with Java Swing to display real-time animations, making it easier to understand the performance and behavior of different algorithms. By leveraging data structures and algorithmic concepts, I implemented and optimized sorting techniques, enabling users to visually compare their efficiency and complexity. The application also included user-friendly controls to select algorithms, adjust array size and speed, and reset the visualizer, offering a hands-on learning experience.",
+      image: sortLogo,
+      tags: ["Java", "Java Swing", "Data Structure", "Sorting Algorithm"],
+      github: "https://github.com/AjitMaddheshiya/Sorting-Algorithm-Visualizer-Using-GUI-Java-DSA-Java-Swing-",
+      webapp: "https://github.com/AjitMaddheshiya/Sorting-Algorithm-Visualizer-Using-GUI-Java-DSA-Java-Swing-",
+    },
+    {
+      id: 2,
+      title: "Quarterly Retail Sales Tax Data Analysis",
+      description:
+        "I analyzed quarterly retail sales and tax data using Python to uncover key trends, seasonal variations, and category-wise performance across different regions. Using Pandas and NumPy, I cleaned, preprocessed, and aggregated large datasets to generate accurate insights and statistical summaries. To visualize the findings, I leveraged Matplotlib and Seaborn to create bar charts, line graphs, and heatmaps that effectively represented sales growth, tax revenue, and category comparisons. Additionally, I generated quarterly comparison reports to support decision-making for retail strategies, tax planning, and identifying high-performing business segments.",
+      image: dataLogo,
+      tags: ["Python", "Numpy", "Pandas", "Matplotlib", "Seaborn"],
+      github: "https://github.com/AjitMaddheshiya/Quarterly-Retail-Sales-Tax-Data-Analysis-Python-Numpy-Pandas-Seaborn-Matlpotlib-etc-",
+      webapp: "https://github.com/AjitMaddheshiya/Quarterly-Retail-Sales-Tax-Data-Analysis-Python-Numpy-Pandas-Seaborn-Matlpotlib-etc-",
+    },
+    {
+      id: 3,
+      title: "Product Sales Analysis and Visualization ",
+      description:
+        "I designed and developed an interactive sales dashboard in Power BI using a multi-table relational model to provide a comprehensive view of global product sales. The dashboard included key KPIs such as Total Sales, Profit Margin, and Top-Selling Products, with DAX formulas enabling dynamic calculations like year-wise quantity sold, product category breakdown, and monthly sales goals. To deliver deep business insights, I integrated various data visualizations including bar charts, pie charts, maps, and slicers for filtering by year, city, product line, and employee. Additionally, I leveraged advanced Power BI features such as calculated columns, relationships, tooltips, and filters to support drill-down analysis and visually track performance trends across regions, years, and product categories.",
+      image: biLogo,
+      tags: ["Power BI"],
+      github: "https://github.com/AjitMaddheshiya/Product-Sales-Analysis-and-Visualization-Power-BI",
+      webapp: "https://github.com/AjitMaddheshiya/Product-Sales-Analysis-and-Visualization-Power-BI",
+    },
+    {
+      id: 4,
+      title: "Super Store Sales Dataset",
+      description:
+        "I designed an interactive sales dashboard in Tableau using multiple datasets (Orders, Returns, and Managers) to track KPIs such as sales, profit, and category-wise performance, with segmented views by Region and Segment (Consumer, Corporate, Home Office). The dashboard featured geospatial visualizations with map charts to display sales across U.S. cities and included dynamic filters and drill-down actions for highlighting specific locations and categories. I implemented diverse chart types such as bar charts, scatter plots, and pie charts to compare Sales vs Profit and provide category-wise breakdowns, supported by calculated fields and parameter controls for deeper analysis. Additionally, I prepared and cleaned raw Excel data (2015–2017), ensuring consistency through joins, data type adjustments, and field customizations, which enabled reliable and insightful visual storytelling.",
+      image: tableuLogo,
+      tags: [" Tableau Public"],
+      github: "https://github.com/AjitMaddheshiya/Super-Store-sales-Dataset-Tableau-Public",
+      webapp: "https://github.com/AjitMaddheshiya/Super-Store-sales-Dataset-Tableau-Public",
+    },
+    {
+      id: 5,
+      title: "Coffee Shop Sales Dashboard",
+      description:
+        "I utilized Excel Power Pivot to manage relationships between data fields and perform complex calculations on large datasets efficiently. Pivot Tables were applied to summarize, filter, and aggregate key metrics such as total revenue, units sold, and profit across regions, item types, and sales channels. To enhance understanding, I created charts and graphs that visualized sales trends, geographical performance, product demand, and profit distribution in an intuitive way. Additionally, I performed data cleaning to ensure accuracy and consistency by handling missing values, correcting formatting issues, and verifying data integrity across all fields.",
+      image: excelfLogo,
+      tags: ["MS Excel"],
+      github: "https://github.com/AjitMaddheshiya/Coffee-Shop-Sales-Dashboard-MS-Excel",
+      webapp: "https://github.com/AjitMaddheshiya/Coffee-Shop-Sales-Dashboard-MS-Excel",
+    },
+    {
+  id: 6,
+  title: "Heart Disease Prediction using Machine Learning",
+  description:
+    "I developed a Heart Disease Prediction system as part of my Predictive Analytics (Machine Learning) coursework. The project involved end-to-end data preprocessing and exploratory data analysis (EDA) on a heart disease dataset, including handling missing values, removing duplicates, outlier detection using IQR, and feature encoding. I implemented multiple machine learning models such as Multiple Linear Regression to predict cholesterol levels, and classification algorithms including Logistic Regression, K-Nearest Neighbors (KNN), and Support Vector Machine (SVM) to predict the presence of heart disease. Additionally, I applied K-Means clustering to identify patient risk groups, used Principal Component Analysis (PCA) for dimensionality reduction, and trained a Neural Network (MLP) for improved classification performance. The models were evaluated using metrics like MAE, MSE, RMSE, R² score, accuracy, confusion matrix, classification report, and k-fold cross-validation to ensure reliability and robustness.",
+  image: heartDiseaseLogo,
+  tags: [
+    "Python",
+    "Machine Learning",
+    "Scikit-learn",
+    "Pandas",
+    "NumPy",
+    "Matplotlib",
+    "Seaborn"
+  ],
+  github: "https://github.com/AjitMaddheshiya/Predictive-Analytics-Project-Machine-Learning-Pipeline-Heart-Disease-Dataset-",
+  webapp: "https://github.com/AjitMaddheshiya/Predictive-Analytics-Project-Machine-Learning-Pipeline-Heart-Disease-Dataset-",
+}
+
+  ];  
